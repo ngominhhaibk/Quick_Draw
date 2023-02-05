@@ -29,4 +29,14 @@ The table below shows 20 categories my model used:
 
 ## Training
 
-You need to download npz files corresponding to 20 classes my model used and store them in folder **data**. If you want to train your model with different list of categories, you only need to change the constant **CLASSES** at **src/config.py** and download necessary npz files. Then you could simply run **python train.py**
+You need to download npz files corresponding to 20 classes my model used and store them in folder **data**. If you want to train your model with different list of categories, you only need to change the constant **CLASSES** at **src/config.py** and download necessary npz files. Then you could simply run:
+```
+python train.py
+```
+
+## Requirements
+
+* **python 3.6**
+* **cv2**
+* **pytorch** 
+* **numpy**
