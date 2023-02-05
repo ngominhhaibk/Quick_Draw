@@ -1,9 +1,8 @@
 ## Introduction
-Here is my python source code for QuickDraw - an online game developed by google. with my code, you could: 
-Run an app which you could draw in front of a camera 
+Here is my python source code for QuickDraw - an online game developed by google. With my code, you could run an app which you could draw in front of a camera 
 
 
-## Camera app
+## Run app
 ```
 python mediapipe_app.py
 ```
@@ -36,7 +35,7 @@ python train.py
 
 ## Requirements
 
-* **python 3.6**
-* **cv2**
-* **pytorch** 
-* **numpy**
+* python 3.6
+* cv2
+* pytorch
+* numpy
